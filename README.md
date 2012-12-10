@@ -17,6 +17,6 @@ RUN
 
     If you use the server started in the previous item, HOST may be '127.0.0.1' and PORT should be same as the number specified.
 
-3. (optional) bundle exec nats-request "process_droplet_status" "" -n 1 -s nats://HOST:PORT
+3. (optional) bundle exec nats-request "droplet.status" "dummy" -n 1 -s nats://HOST:PORT
 
     If you use the server started in the previous item, HOST may be '127.0.0.1' and PORT should be same as the number specified.
